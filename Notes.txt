@@ -34,3 +34,28 @@ All HTML attributes are attribute nodes.
 Text inserted into HTML elements are text nodes.
 Comments are comment nodes.
 
+JavaScript code uses the id to find the element.
+
+The HTTP POST method sends data to the server. 
+The type of the body of the request is indicated by the Content-Type header.
+
+The difference between PUT and POST is that PUT is idempotent: calling it once or several 
+times successively has the same effect (that is no side effect), where successive identical POST may have additional effects,
+like passing an order several times.
+
+AJAX (Asynchronous JavaScript and XML) is a term introduced in February 2005 on the back of advancements in browser technology 
+to describe a new revolutionary approach that enabled the fetching of content to web pages using JavaScript included within the HTML,
+ without the need to rerender the page.
+
+Nowadays AJAX is not acceptable since it does not follow with REST
+
+REST is an architectural style, SOAP is a protocol.
+
+REVIEW:
+https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services
+https://en.wikipedia.org/wiki/Single-page_application
+
+
+SPA-style websites means we are manipulating a single HTML instead of fetching multiple from the server.
+
+The data is sent to the server with form submit, and the server instructs the browser to reload the Notes page with a redirect.

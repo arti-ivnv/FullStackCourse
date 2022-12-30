@@ -1,0 +1,36 @@
+1st rule always keep Developer Console (F12)
+
+Preserve log - it saves the logs printed by the application when the page is reloaded.
+
+
+The server and the web browser communicate with each other using the HTTP protocol. 
+The Network tab shows how the browser and the server communicate.
+
+The HTTP GET method requests a representation of the specified resource. 
+Requests using GET should only be used to request data (they shouldn't include data).
+
+Status codes:
+1xx informational response – the request was received, continuing process
+2xx successful – the request was successfully received, understood, and accepted
+3xx redirection – further action needs to be taken in order to complete the request
+4xx client error – the request contains bad syntax or cannot be fulfilled
+5xx server error – the server failed to fulfil an apparently valid request
+
+More on: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+A callback function is a function passed into another function as an argument, 
+which is then invoked inside the outer function to complete some kind of routine or action.
+
+
+Event handler functions are called callback functions. 
+
+The Document Object Model (DOM) is a cross-platform and language-independent interface 
+that treats an XML or HTML document as a tree structure wherein each node is an object 
+representing a part of the document.
+
+A document is a document node.
+All HTML elements are element nodes.
+All HTML attributes are attribute nodes.
+Text inserted into HTML elements are text nodes.
+Comments are comment nodes.
+

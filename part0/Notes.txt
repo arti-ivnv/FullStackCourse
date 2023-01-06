@@ -1,0 +1,61 @@
+1st rule always keep Developer Console (F12)
+
+Preserve log - it saves the logs printed by the application when the page is reloaded.
+
+
+The server and the web browser communicate with each other using the HTTP protocol. 
+The Network tab shows how the browser and the server communicate.
+
+The HTTP GET method requests a representation of the specified resource. 
+Requests using GET should only be used to request data (they shouldn't include data).
+
+Status codes:
+1xx informational response – the request was received, continuing process
+2xx successful – the request was successfully received, understood, and accepted
+3xx redirection – further action needs to be taken in order to complete the request
+4xx client error – the request contains bad syntax or cannot be fulfilled
+5xx server error – the server failed to fulfil an apparently valid request
+
+More on: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+A callback function is a function passed into another function as an argument, 
+which is then invoked inside the outer function to complete some kind of routine or action.
+
+
+Event handler functions are called callback functions. 
+
+The Document Object Model (DOM) is a cross-platform and language-independent interface 
+that treats an XML or HTML document as a tree structure wherein each node is an object 
+representing a part of the document.
+
+A document is a document node.
+All HTML elements are element nodes.
+All HTML attributes are attribute nodes.
+Text inserted into HTML elements are text nodes.
+Comments are comment nodes.
+
+JavaScript code uses the id to find the element.
+
+The HTTP POST method sends data to the server. 
+The type of the body of the request is indicated by the Content-Type header.
+
+The difference between PUT and POST is that PUT is idempotent: calling it once or several 
+times successively has the same effect (that is no side effect), where successive identical POST may have additional effects,
+like passing an order several times.
+
+AJAX (Asynchronous JavaScript and XML) is a term introduced in February 2005 on the back of advancements in browser technology 
+to describe a new revolutionary approach that enabled the fetching of content to web pages using JavaScript included within the HTML,
+ without the need to rerender the page.
+
+Nowadays AJAX is not acceptable since it does not follow with REST
+
+REST is an architectural style, SOAP is a protocol.
+
+REVIEW:
+https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services
+https://en.wikipedia.org/wiki/Single-page_application
+
+
+SPA-style websites means we are manipulating a single HTML instead of fetching multiple from the server.
+
+The data is sent to the server with form submit, and the server instructs the browser to reload the Notes page with a redirect.

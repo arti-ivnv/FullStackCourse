@@ -86,7 +86,8 @@ const App = () => {
     }
   }
 
-  console.log(highest);
+  // snippet: clo
+  // console.log('first', first)
 
   return (
     <div>
